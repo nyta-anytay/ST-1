@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/ST-1.test.dir/AllTests.cpp.o" "CMakeFiles/ST-1.test.dir/tests.cpp.o" -o ST-1.test  -Wl,-rpath,/home/nyuti/repos/ST-1/build/src ../src/libST-1.so ../lib/libgtest.a 

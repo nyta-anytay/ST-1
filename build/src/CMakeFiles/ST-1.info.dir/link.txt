@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/ST-1.info.dir/main.cpp.o" -o ST-1.info  -Wl,-rpath,/home/nyuti/repos/ST-1/build/src libST-1.so 
