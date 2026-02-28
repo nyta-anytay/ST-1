@@ -95,14 +95,14 @@ TEST(SumPrime, BoundBelowTwo) {
 }
 
 TEST(SumPrime, SmallBounds) {
-    EXPECT_EQ(sumPrime(3),  2ULL);   
-    EXPECT_EQ(sumPrime(6),  10ULL);  
-    EXPECT_EQ(sumPrime(10), 17ULL);  
+    EXPECT_EQ(sumPrime(3),  2ULL);
+    EXPECT_EQ(sumPrime(6),  10ULL);
+    EXPECT_EQ(sumPrime(10), 17ULL);
 }
 
 TEST(SumPrime, BoundNotIncluded) {
-    EXPECT_EQ(sumPrime(11), 17ULL);  
-    EXPECT_EQ(sumPrime(12), 28ULL);  
+    EXPECT_EQ(sumPrime(11), 17ULL);
+    EXPECT_EQ(sumPrime(12), 28ULL);
 }
 
 TEST(SumPrime, SumUpToTwenty) {
