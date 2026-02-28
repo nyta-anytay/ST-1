@@ -8,7 +8,8 @@ bool checkPrime(uint64_t value) {
     if (value < 4) return true;
     if (value % 2 == 0 || value % 3 == 0) return false;
 
-    uint64_t sqrtVal = static_cast<uint64_t>(std::sqrt(static_cast<double>(value)));
+    uint64_t sqrtVal =
+        static_cast<uint64_t>(std::sqrt(static_cast<double>(value)));
     for (uint64_t i = 5; i <= sqrtVal; i += 6) {
         if (value % i == 0 || value % (i + 2) == 0) return false;
     }
